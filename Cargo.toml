@@ -1,0 +1,12 @@
+[package]
+name = "getaddrinfo"
+version = "0.1.0"
+authors = ["Dan Kozlowski <dan.kozlowski@gmail.com>"]
+
+[dependencies]
+libc = "0.2.0"
+resolve = "0.0.1"
+
+[lib]
+name = "rgetaddrinfo"
+crate_type = ["dylib"]

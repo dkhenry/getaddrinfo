@@ -5,7 +5,6 @@ authors = ["Dan Kozlowski <dan.kozlowski@gmail.com>"]
 
 [dependencies]
 libc = "0.2.0"
-resolve = "0.0.1"
 
 [lib]
 name = "rgetaddrinfo"
